@@ -21,6 +21,8 @@ changes aims to take advantage of new features that are becoming available in ES
 
 However. "Controllers" are replaced with "View mMdels". Angular can be better understood as a "MVVM" ("Model-View-ViewModel") framework.
 
+![mvvm](./images/mvvm.gif)
+
 `Model = data`
 
 `View = HTML templates that are extended with custom elements and attributes called "directives".`
@@ -43,3 +45,4 @@ Notes:
 - Angular's approach to view synchronization makes it very "designer-friendly": designers can modify HTML templates without worrying too much about the code. The reverse is also true: as long as there is a designer on the team, developers are largely freed from worrying about HTML and CSS. Angular 2 preserves this feature.
 
 
+![summary of approaches](./images/sumaryOfApproaches.png)
