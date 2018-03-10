@@ -1,7 +1,7 @@
 # AngularJS1-review
 This is a personal review of AngularJS1.X to wrap up my thoughts, after these years of working while reading [rangleio blogs](https://ngcourse-1.rangle.io/).
 
-Iy may take a long time to complete, but will helps me to get to stages every few weeks.
+It may take a long time to complete, but will helps me to get to stages every few weeks.
 
 ## Setup
 - For Mac OS X, [iTerm2](http://iterm2.com/) is recommended. Believe me, it's awesome.
@@ -46,3 +46,18 @@ Notes:
 
 
 ![summary of approaches](./images/sumaryOfApproaches.png)
+
+- Part 1: EcmaScript 5 for AngularJS Developers
+- Part 2: EcmaScript 6 and TypeScript
+- Part 3: Getting Started with the Client (a) Basic (b) Components
+- Part 4: Introduction to Unit Testing
+- Part 5: Making HTTP Requests.
+- Part 6: Introduction to Promises.
+- Part 7: Services
+- Part 9: More Promises
+- Part 10: Unit Testing Services
+- Part 11: Reactive Programming with RxJs.
+- Part 12: Flux Architecture
+- Part 13: Unit Testing Stores
+- Part 14: UI Router
+- Part 15: MEAN Stack Security Considerations
