@@ -23,9 +23,9 @@ However. "Controllers" are replaced with "View mMdels". Angular can be better un
 
 `Model = data`
 
-`View = HTML part`
+`View = HTML templates that are extended with custom elements and attributes called "directives".`
 
-`ViewModel = $Scope/Controlers`
+`ViewModel = $scope/Controlers`
 
 
 ```
@@ -33,3 +33,13 @@ only the most trivial applications can be understood as consisting of a single m
 single controller. More commonly, an application will include multiple views, multiple controllers, and multiple
 data models. So, it might look more like this:
 ```
+Notes:
+
+- Angular 2 merges "controllers" and "directives" into a single concept of a "component".
+- Angular 1.x also has a concept of "two-way databinding", where properties of the view model can be automatically changed to reflect changes to DOM properties. This approach is deprecated in Angular 2 and we will avoid it.
+- Angular 1.x allows you to organize your view models into a hierarchy of "scopes" that partly mirrors DOM structure. This approach has proven problematic and we've usually recommended against it. It is being dropped entirely in Angular 2. 
+
+- AngularJS automatically synchronizes DOM with view models when the view model changes. It also allows us to associate function handlers with DOM events. Both of those methods are preserved and generalized in Angular 2, 4, 5 and later versions.
+- Angular's approach to view synchronization makes it very "designer-friendly": designers can modify HTML templates without worrying too much about the code. The reverse is also true: as long as there is a designer on the team, developers are largely freed from worrying about HTML and CSS. Angular 2 preserves this feature.
+
+
